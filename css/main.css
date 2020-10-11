@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.wrapper {
+
+    width: 1400px;
+    height: 950px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 140px 120px;
+}
+
+h1 {
+    font-family: 'Playfair Display', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
