@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Playfair+Display&display=swap');
 
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .wrapper {
     font-family: 'Playfair Display', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    width: 1400px;
+    width: 1160px;
     height: 950px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    margin: 0 auto;
-    padding: 140px 120px;
+    padding: 120px;
 }
 
 h1 {
@@ -15,7 +26,7 @@ h1 {
 }
 
 p {
-    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.5);
     line-height: 1.5;
 }
 
@@ -37,4 +48,16 @@ p {
 
 span {
     font-size: 2em;
+}
+
+button {
+    text-transform: uppercase;
+    height: 69px;
+    width: 265px;
+    border-radius: 0;
+    background-color: transparent;
+    border: 3px solid #EAA258;
+    color: #EAA258;
+    opacity: 0.8;
+    font-size: 1em;
 }
