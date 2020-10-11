@@ -9,10 +9,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.wrapper {
+article {
     font-family: 'Playfair Display', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     width: 1160px;
@@ -60,4 +59,9 @@ button {
     color: #EAA258;
     opacity: 0.8;
     font-size: 1em;
+}
+
+.wrapper:hover {
+    box-shadow: 0 0 40px rgba(234, 162, 88, 0.3);
+    transform: scale(1.2);
 }
